@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#9ebaa6;
+}
+h1{
+      font-family: "Ranchers", sans-serif;
+      text-align: center;
+      letter-spacing: 2px;
+      font-size: 45px;
+      color: midnightblue;
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
+.intro{
+    padding: 20px;
+    font-size: 34px;
+      font-family: "Leckerli One", cursive;
+      background-color: #6b20e3;
+      color: white;
+      text-align: center;
+}
+.description{
+    padding: 20px;
+    font-size: 25px;
+      font-family: "UnifrakturCook", cursive;
+      text-align:left ;
+      background-color: #89a9d8;
+      color: brown;
+}

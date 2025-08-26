@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box
+{
+    height: 300px;
+    width: 300px;
+    background-color: goldenrod;
+    margin: 50px;
+    padding: 20px;
+    justify-self: center;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.box p{
+    margin-top: 30p;
+}
