@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* corpo  */
+body{
+            background-color: #000896;
+background-image: url("https://www.transparenttextures.com/patterns/wall-4-light.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+}
+/* cabeçalho */
+header{ background-color: #000896;
+background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+header h1{
+    padding: 20px;
+    text-align: center;
+  font-family: "Lobster", sans-serif;  
+    letter-spacing: 1px;
+    font-size: 35px;
+    color: white;
+}
+header h2{
+    font-size: 20px;
+    text-align: center;
+      font-family: "Acme", sans-serif;
+      color: rgba(255, 255, 255, 0.74);
+}
+
+     /* MENU */
+    .menu a{
+        text-decoration: none;
+        font-size: 25px;
+        margin: 2px;
+        width: 100%;
+       display: inline;
+       padding: 2px;
+       color: wheat;
+    }
+    .menu{
+        background-color: #081870;
+        text-align: center;
+        padding: 2px;
+        font-weight: bold;
+        font-family: "Bebas Neue", sans-serif;
+    }
+    /* imagem */
+#about img{ height: 150px;
+     border: 5px solid #081870; 
+     border-radius: 500px;
+     display:block;
+     float: right; 
+     margin-right: 30px;
+     margin-top: -20px;
+    }
+    /* Sobre */
+    #about{
+        background-color: rgb(224, 205, 255);
+        margin-top: 0
+    }
+    #about h2{
+        text-align: center;
+        margin-top: 10px;
+     font-family: "Lobster", sans-serif;  
+     margin-top: -3px;
+     width: 100%;
+
+    }
+
+    #about p{
+        padding: 20px;
+        margin-right: 5%;
+        text-align: left;
+        font-family: "Acme", sans-serif;
+}
+
+/* work */
+#work{ background-color: rgb(224, 205, 255);
+        margin-top: 0
+}
+#work h2 {
+        text-align: center;
+        margin-top: 10px;
+     font-family: "Lobster", sans-serif;  
+     margin-top: -3px;
+     width: 100%;
+     display: block;
+     clear: both;
+    }
+    #work p{
+        padding: 20px;
+        margin-right: 5%;
+        text-align: left;
+        font-family: "Acme", sans-serif;
+}
+
+        
+/* conhecimentos */
+#know{ background-color: rgb(224, 205, 255);
+        margin-top: 0
+}
+#know h2 {
+        text-align: center;
+        margin-top: 10px;
+     font-family: "Lobster", sans-serif;  
+     margin-top: -3px;
+     width: 100%;
+     display: block;
+     clear: both;
+    }
+  .content3 ul{
+    text-align: center;
+  }  
+.content3 li{
+    display: inline-block;
+   padding: 15px;
+   margin: 25px;
+   justify-items: center;
+   border: 5px solid black;
+   border-radius: 15px;
+   background-color: #0a0094;
+background-image: url("https://www.transparenttextures.com/patterns/starring.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+color: wheat;
+ font-family: "Bebas Neue", sans-serif;
+ font-weight: bold;
+ font-size: 20px;
+
+}    

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* head */
+h1{
+    font-family: "Galada", cursive;
+    letter-spacing: 2px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+.menu{
+    border-right: 2px solid black;
+    float: left;
+    width: 250px;
+    padding: 20px;
+    position: fixed;
+    
+}
+.menu ul{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    font-family: "Cal Sans", sans-serif;
+    color: gray;
+    display: block;
+    float: left;
+
+    
+    
+}
+/* cardapio */
+.cardapio1, .cardapio2, .cardapio3{
+    margin-left: 250px;
+    padding: 20px;
+    display: block;
+}
+
+#entradas h2{
+    padding: 5px;
+      font-family: "Oswald", sans-serif;
+
+}
+/* image entrada  */
+.img1{
+    display: block;
+    float:right;
+    margin: -60px 920px 0 0;
+}
+
+#entradas::after{
+    clear: both;
+}
+@media(max-width: 768px){
+    .img1{
+        float: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+    }
+}
+/* cardapio2  */
+#pratos-principais h2{
+    padding: 5px;
+    font-family: "Oswald", sans-serif;
+
+}
+
+.img2{
+    display: block;
+    float:right;
+    margin: 10px 920px 0 10px;
+}
+@media(max-width: 768px){
+    .img2{
+        float: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+    }
+}
+/* cardapio3 */
+#sobremesas h2{
+    padding: 5px;
+        font-family: "Oswald", sans-serif;
+
+}
+.cardapio3::after{
+    clear: both;
+}
+.img3{
+    display: block;
+    float:right;
+    margin: 0px 910px 0 20px;
+}
+@media(max-width: 768px){
+    .img3{
+        float: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+    }
+}
+/* cardápios  */
+.cardapio1::after,
+.cardapio2::after,
+.cardapio3::after{
+content: "";
+display: table;
+clear: both;
+}
+/* imagens */
+img1,img2,img3{
+    float: right;
+    margin: 10px;
+    max-width: 300px;
+    height: auto;
+}
+
+/* rodapé */
+
+.brand{
+    background-color: #D8D8D8;
+    border: 2px solid black;
+    padding: 10px;
+}
+.brand img{
+    height: 170px;
+    padding: 5px;
+    margin: 5px;
+}
+.contact {
+    padding: 20px;
+float: right;
+margin-right: 15px;
+padding-bottom: 30px;
+color: black;
+
+}
+.contact h2{
+    font-family: "Oswald", sans-serif;
+    padding: 10px;
+     text-align: center;
+}
+.contact ul{
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+}
+.contact a{
+    text-decoration: none;
+    margin: 2px;
+    color: black;
+    font-weight: bold;
+
+
+}
