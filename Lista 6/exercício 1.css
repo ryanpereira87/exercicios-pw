@@ -134,3 +134,78 @@ color: wheat;
  font-size: 20px;
 
 }    
+.content3 li:hover{
+    border: 5px solid red;
+}
+/* objetivos */
+#objective{
+    background-color: rgb(224, 205, 255);
+        margin-top: 0
+}
+#objective h2 {
+        text-align: center;
+        margin-top: 10px;
+     font-family: "Lobster", sans-serif;  
+     margin-top: -3px;
+     width: 100%;
+     display: block;
+     clear: both;
+    }
+.content4 ul{
+    text-align: center;
+  }
+  .content4 li{
+    display: inline-block;
+   padding: 15px;
+   margin: 25px;
+   justify-items: center;
+   border: 5px solid black;
+   border-radius: 15px;
+   background-color: #0a0094;
+background-image: url("https://www.transparenttextures.com/patterns/starring.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+color: wheat;
+ font-family: "Bebas Neue", sans-serif;
+ font-weight: bold;
+ font-size: 20px;
+
+}
+.content4 li:hover
+{border: 5px solid greenyellow;}
+/* Hobbies */
+#hobbies
+{
+    background-color: rgb(224, 205, 255);
+        margin-top: 0
+}
+#hobbies
+ h2 {
+        text-align: center;
+        margin-top: 10px;
+     font-family: "Lobster", sans-serif;  
+     margin-top: -3px;
+     width: 100%;
+     display: block;
+     clear: both;
+    }
+.content5 ul{
+    text-align: center;
+  }
+  .content5 li{
+    display: inline-block;
+   padding: 15px;
+   margin: 25px;
+   justify-items: center;
+   border: 5px solid black;
+   border-radius: 15px;
+   background-color: #0a0094;
+background-image: url("https://www.transparenttextures.com/patterns/starring.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+color: wheat;
+ font-family: "Bebas Neue", sans-serif;
+ font-weight: bold;
+ font-size: 20px;
+
+}
+.content5 li:hover
+{border: 5px solid rgb(4, 196, 180);}

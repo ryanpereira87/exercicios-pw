@@ -224,7 +224,7 @@ padding: 15px;
         padding: 20px;  
         margin-bottom: 5px;
 }
-/* PRIMEIRA IMAGEM À DIREITA */
+/*  IMAGENS À DIREITA */
 .content1 img{
     border: 5px solid black;
     transition: 1.0s; 
@@ -329,3 +329,104 @@ margin-right: 20px;}
     border: 10px double rgb(90, 87, 255);
 }
 
+/* coluna grande  */
+.colum{
+     background-color: #083000;
+background-image: url("https://www.transparenttextures.com/patterns/xv.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    margin: 20px 0 0;
+    width: 100%;
+    width: 1466px;
+    padding-bottom: 24px;
+
+}
+.colum::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.colum h2{
+    text-align: center;
+    color: white;
+    font-family: "Lily Script One", system-ui;  
+    padding: 20px; 
+
+}
+.img1colum img{
+    width: 530px;
+    height: 318px;
+    padding-left: 5px;
+    border: 5px solid wheat;
+    
+}
+.img1colum em{
+    color: white
+}
+.img1colum img:hover{
+     border: 10px double rgb(255, 87, 255);
+}
+.c1{
+    float: left;
+    margin-right: 15px;
+}
+/* imagem 2  */
+.img2colum img{
+    width: 530px;
+    height: 318px;
+    padding-left: 5px;
+    border: 5px solid wheat;
+    
+}
+.img2colum em{
+    color: white
+}
+.img2colum img:hover{
+     border: 10px double rgb(87, 202, 255);
+}
+.c2{
+    float: left;
+    margin-right:15px
+}
+/* imagem 3 */
+.img3colum img{
+    width: 370px;
+    height: 573px;
+    border: 5px solid wheat;
+    display: block;
+    
+}
+.img3colum em{
+    color: white;
+    text-align: right;
+    margin-right:13px;
+}
+.img3colum img:hover{
+     border: 10px double rgb(18, 41, 241);
+}
+.c3{
+   
+    margin-left:15px;
+}
+/* imagem 4 */
+.img4colum img{
+    width: 100%;
+    height: 240px;
+    padding-left: 5px;
+    border: 5px solid wheat;
+    object-fit: cover;
+    display: block;
+}
+.img4colum em{
+    color: white;
+    text-align: right;
+    margin-right:13px;
+}
+.img4colum img:hover{
+     border: 10px double rgb(241, 18, 18);
+}
+.c4{
+    clear: both;
+    float: left;
+    width: 813px;
+    margin-top: -240px;
+}
