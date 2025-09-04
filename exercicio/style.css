@@ -15,6 +15,7 @@
 @media(max-width:768px){.conteiner{
     width: 100%;
     justify-content: center;
+
 }
     
 }
@@ -45,13 +46,14 @@ h1{
     font-family: "Cal Sans", sans-serif;
     color: gray;
     display: block;
-    float: left;
-
-    
-    
+    float: left; 
 }
+.nav-link:hover{
+    border-bottom: 2px solid rgb(221, 197, 130);
+}
+
 /* cardapio */
-.cardapio1, .cardapio2, .cardapio3{
+.cardapio1, .cardapio2, .cardapio3,.cardapio4{
     margin-left: 250px;
     padding: 20px;
     display: block;
@@ -123,21 +125,55 @@ h1{
         text-align: center;
     }
 }
+/* cardapio 4 */
+#bebidas h2{
+    padding: 5px;
+        font-family: "Oswald", sans-serif;
+        
+
+}
+.cardapio4::after{
+    clear: both;
+}
+.img4{
+    display: block;
+    float:right;
+    margin: 0  0 20px;
+    max-width: min-content;
+}
+@media(max-width: 768px){
+    .img4{
+        float: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        max-width: min-content;
+        height: fit-content;
+    }
+}
+
 /* cardápios  */
 .cardapio1::after,
 .cardapio2::after,
-.cardapio3::after{
+.cardapio3::after,
+.cardapio4::after{
 content: "";
 display: table;
 clear: both;
 }
 /* imagens */
-img1,img2,img3{
+.img1,.img2,.img3{
     float: right;
     margin: 10px;
     max-width: 300px;
     height: auto;
 }
+.img4{
+    float: right;
+    margin: 10px;
+    
+}
+
 
 /* rodapé */
 
