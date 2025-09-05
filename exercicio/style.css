@@ -51,6 +51,7 @@ h1{
 }
 .nav-link:hover{
     border-bottom: 2px solid rgb(221, 197, 130);
+    color: black;
 }
 
 
