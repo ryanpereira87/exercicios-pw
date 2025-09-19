@@ -1,0 +1,114 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Corpo */
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/* Head */
+header{
+    background: radial-gradient(circle,#0808b1, #191981,#3737b4 );
+      font-family: "Bungee Spice", sans-serif;
+flex-wrap: wrap;
+height: 20vh;
+padding: 20px;
+text-align: center;
+}
+/* Conteúdo */
+.container{
+    display: flex;
+    background:linear-gradient(#f0d1a8,#e0840a);
+gap: 20px;
+
+ }
+ .content1{
+    display: flex;
+    background:linear-gradient(to right, #0b0b28,#131355,#1a1a66);
+    border: 1px solid rgb(211, 99, 99);
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 40vh;
+    gap: 8px;
+    padding: 5px;
+ }
+ .content1 .card{
+    border: 3px solid white;
+ }
+ .content2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 1;
+    align-content: baseline;
+    padding: 5px;
+    gap: 25px;
+    margin-right: 15px;
+   
+
+ }
+ .card{
+    flex: 1;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+background-image: url("https://t3.ftcdn.net/jpg/06/51/45/26/360_F_651452672_ssp8irPlMCNDVi5LTUOUV6KqoDP8QpWL.jpg");
+background-size: cover;
+background-position: center;
+
+    
+ }
+ 
+ .card img{
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px ;
+    box-shadow: 0 0 8px 2px rgb(225, 242, 247);
+    margin: 0 auto;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    transition: 0.5s;
+ }
+ .card img:hover{
+    border-right: 5px double blueviolet;
+    border-left: 5px double gold;
+    border-top: 5px double red;
+    border-bottom: 5px double greenyellow;
+    transform: scale(1.1);
+    margin-bottom: 12px;
+ }
+.card h2{
+    text-align: center;
+      font-family: "Henny Penny", system-ui;
+      letter-spacing: 2px;
+}
+.content1 h2{
+     color: yellow;
+
+}
+.content2 h2{
+    color: white;
+}
+.card .legend{
+    background: rgb(149, 149, 173);
+    padding: 5px;
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    transition: 1.5s;
+}
+.card .legend:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+.content1 .card .legend{
+    color: rgb(255, 255, 255);
+}
