@@ -1,0 +1,121 @@
+/* font */
+@import url("https://fonts.cdnfonts.com/css/spongebob-font-condensed");
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "SpongeBob Font Condensed", sans-serif;
+  height: 100vh;
+  background-image: url(./assets/organic-leaves-cartoon-background-simple-nature-shapes_686681-638.avif);
+}
+/* Título */
+header {
+  background: linear-gradient(to left, #f48fb1, #f5de76);
+  margin-bottom: 10px;
+}
+header h1 {
+  text-align: center;
+  padding: 15px;
+  color: #0288d1;
+}
+/* Imagem do Bob esponja */
+.bob-display {
+  padding: 15px;
+  transition: all 0.5s ease;
+  cursor: text;
+}
+.bob-display:hover {
+  background-color: #fff;
+  max-width: 350px;
+  max-height: 300px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px 2px #007bff;
+}
+.bob-display img {
+  max-width: 350px;
+  border-radius: 15px;
+  box-shadow: 0 1px 4px 9px #f5de76;
+  transition: opacity 0.4s ease;
+  position: relative;
+}
+.bob-display img:hover {
+  opacity: 0;
+}
+/* Calculadora */
+.calculator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 380px;
+  margin: 0 auto;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  background-image: url(./assets/desktop-wallpaper-spongebob-backgrounds-cave-backgrounds-spongebob-yellow.jpg);
+}
+/* botões */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto;
+  gap: 10px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 5px;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+}
+.buttons .number,
+.operador {
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-family: "SpongeBob Font Condensed", sans-serif;
+  transition: 0.4s;
+}
+.buttons .number {
+  background-color: #007bff;
+  color: #fff;
+  box-shadow: 0 3px 5px #03254b;
+}
+.buttons .number:hover {
+  background-color: #4a9cf3;
+}
+.buttons .operador {
+  background-color: #ff9800;
+  color: black;
+  box-shadow: 0 3px 5px #c5a600;
+}
+.buttons .operador:hover {
+  background-color: #fabd60;
+  font-weight: bold;
+}
+.clear {
+  background-color: #f48fb1;
+  font-size: 3.5rem;
+  font-weight: bold;
+  transition: 0.4s;
+}
+.clear:hover {
+  background-color: #f33272;
+  color: #fff;
+}
+.buttons .igual {
+  background: linear-gradient(#00bcd4, #0097a7);
+  color: #ffeb3b;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 3.2rem;
+  transition: 0.4s;
+}
+.buttons .igual:hover {
+  background: linear-gradient(#39c5d8, #52f1ff);
+  color: #fff;
+  font-weight: bold;
+}
