@@ -1,0 +1,126 @@
+@import url(./css/reset.css);
+@import url(./css/variabeis.css);
+/* Corpo */
+body {
+  background-color: var(--primary-color);
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+.conteiner {
+  display: grid;
+  grid-template-areas: "header" "header" "hero" "hero";
+  grid-column: 960px 960px 500px 800px;
+  grid-row: auto;
+}
+/* Cabeçalho */
+header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  align-items: center;
+  gap: 300px;
+}
+/* Header-contents */
+.navbar ul {
+  display: flex;
+  gap: 50px;
+}
+.navbar ul li a {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  transition: 0.5s;
+  font-weight: bold;
+}
+.navbar ul li a:hover {
+  font-size: 1.6rem;
+  border-bottom: 3px solid var(--tertiary-color);
+}
+/* Botão sign up */
+.right-button {
+  background-color: #fff;
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 15px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.right-button:hover {
+  border: 10px double var(--tertiary-color);
+  font-size: 1.6rem;
+}
+/* Main-content */
+.hero {
+  grid-area: hero;
+  display: flex;
+  background: linear-gradient(var(--secondary-color), var(--primary-color));
+  border-radius: 15px;
+  max-width: 1800px;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  align-items: center;
+  height: 800px;
+}
+/* left-content */
+.hero .left-content {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  gap: 25px;
+  align-self: center;
+}
+.hero .left-content .hashtag {
+  background-color: var(--tertiary-color);
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 25px;
+  max-width: fit-content;
+}
+.hero .left-content h1 {
+  color: #fff;
+  font-size: 2.2rem;
+  max-width: 450px;
+}
+.hero .left-content p {
+  color: var(--text-color);
+  max-width: 400px;
+  font-size: 1.3rem;
+}
+.hero .left-content button {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--primary-color);
+  transition: 0.5s;
+  font-size: 1.6rem;
+  max-width: fit-content;
+}
+.hero .left-content button .arrow {
+  background-color: var(--primary-color);
+  padding: 7px;
+  padding-right: 10px;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 2rem;
+  font-weight: normal;
+}
+.hero .left-content button:hover {
+  border: 10px double var(--tertiary-color);
+}
+/* Imagem */
+.hero .banner-right {
+  display: flex;
+  align-content: center;
+}
+.hero .banner-right img {
+  max-width: fit-content;
+  height: 650px;
+}
